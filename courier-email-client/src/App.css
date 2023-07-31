@@ -1,0 +1,71 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.spellbook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.spellbook-image {
+  max-width: 100%;
+}
+
+.spells-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.spells-left,
+.spells-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.spell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 10px;
+}
+.spell:hover {
+  background-color: #eec14569;
+}
+
+.spell:active {
+  cursor: progress;
+}
+.spell img {
+  width: 50px;
+  height: 50px;
+}
+
+.spell span {
+  margin-top: 10px;
+}
+
+.spell-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.spell-wrapper p {
+  margin-left: 20px;
+  max-width: 150px;
+  font-size: 9px;
+}
