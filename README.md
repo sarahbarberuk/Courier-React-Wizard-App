@@ -33,7 +33,7 @@ In `courier-email-server`, open `server.js` and replace `YOUR_AUTH_TOKEN` with y
 
 #### Configuring the Spellbook
 
-In `courier-email-client`, go to `Spellbook.js` and replace all instances of `YOUR_EMAIL` and `YOUR_TEMPLATE_ID` with the email you want to send to and the email templates you want to use. (Templates created at [https://www.courier.com](Courier.com))
+In `courier-email-client`, go to `Spellbook.js` and replace all instances of `YOUR_EMAIL` and `YOUR_TEMPLATE_ID` with the email you want to send to and the email templates you want to use. (Templates created at [Courier.com](https://www.courier.com))
 
 ### Running the Application
 
