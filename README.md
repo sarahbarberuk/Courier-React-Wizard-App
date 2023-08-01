@@ -18,7 +18,7 @@ Before you begin, you will need to have the following installed:
 
 ### Installation
 
-1. Clone the repo: git clone [https://github.com/username/repo-name.git](https://github.com/adam-searle/Courier-React-Wizard-App.git)
+1. Clone the repo: git clone [https://github.com/adam-searle/Courier-React-Wizard-App.git](https://github.com/adam-searle/Courier-React-Wizard-App.git)
 
 2. Install NPM packages in both the `courier-email-client` and `courier-email-server` directories. In your terminal, navigate to each directory and run: npm install
 
