@@ -25,7 +25,7 @@ Before you begin, you will need to have the following installed:
 
 ### Configuration
 
-After installing the project, you need to provide your Courier Auth Token, your email, and your email templates.
+After installing the project, you need to provide your Courier Auth Token, your email, and your email template(s).
 
 #### Setting up Courier
 
@@ -33,7 +33,7 @@ In `courier-email-server`, open `server.js` and replace `YOUR_AUTH_TOKEN` with y
 
 #### Configuring the Spellbook
 
-In `courier-email-client`, go to `Spellbook.js` and replace all instances of `YOUR_EMAIL` and `YOUR_TEMPLATE_ID` with the email you want to send to and the email templates you want to use.
+In `courier-email-client`, go to `Spellbook.js` and replace all instances of `YOUR_EMAIL` and `YOUR_TEMPLATE_ID` with the email you want to send to and the email templates you want to use. (Templates created at [https://www.courier.com](Courier.com))
 
 ### Running the Application
 
