@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json()); // for parsing application/json
 app.use(cors());
 
-const courier = CourierClient({ authorizationToken: "pk_prod_N671XW6PREMS0EMX67XMTPWAYTQW" });
+const courier = CourierClient({ authorizationToken: "YOUR_AUTH_TOKEN" });
 
 app.post('/send-email', async (req, res) => {
   const { email, templateId } = req.body;
